@@ -1,0 +1,17 @@
+{
+  "name": "@openzeppelin/defender-sdk-example-ethers-signer",
+  "version": "1.10.0",
+  "private": true,
+  "main": "index.js",
+  "author": "OpenZeppelin Defender <defender@openzeppelin.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    
+    
+    "dotenv": "^16.3.1",
+    "ethers": "6.12.1"
+  }
+}
