@@ -10,7 +10,7 @@ const owner = wallet.address;
 const tokenAddress = "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359";
 const spender = "0x22DAcCD029c443D1af422f10dabcFB77EB69319f"; 
 const value = 1e6; // or could use ...ethers.parseUnits("1", 6);
-const deadline = 1715917364;//Math.floor(Date.now() / 1000) + 3600; // 1 hours
+const deadline = Math.floor(Date.now() / 1000) + 3600; // 1 hours
 const dexAddress = "0x22DAcCD029c443D1af422f10dabcFB77EB69319f";
 console.log(deadline)
 
