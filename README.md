@@ -29,7 +29,7 @@ Ensure you have the following installed:
 To execute the swap script, run:
 
 ```sh
-node index.js
+node permit-USDC-Polygon.js
 ```
 
 
